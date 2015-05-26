@@ -21,12 +21,18 @@ Currently [DTOP's Intelligent Transportation Systems (ITS)]((http://its.dtop.gov
 require 'big_brother_pr'
 
 traffic_cams = BigBrotherPR.find_all_cameras
-=> [{"name"=>"AGUADA-CAM 01", "location"=>"PR-2 INT PR-417", "dateTime"=>"1/10/2014 3:33:24 PM", "imageSource"=>"http://its.dtop.gov.pr/images/cameras/AGDACAM01/AGDACAM01.jpg", "id"=>1, "latitude"=>nil, "longitude"=>nil, "hasCoordinates"=>false}, {"name"=>"AGUADILLA-CAM 01", "location"=>"PR-2 INT PR-110 NORTE", "dateTime"=>"25/5/2015 11:36:34 PM", "imageSource"=>"http://its.dtop.gov.pr/images/cameras/AGDLLACAM01/AGDLLACAM01.jpg", "id"=>2, "latitude"=>18.452983, "longitude"=>-67.091931, "hasCoordinates"=>true}, {"name"=>"AGUADILLA-CAM 02", "location"=>"PR-2 INT PR-459 (PLAZA FERRAM)", "dateTime"=>"25/5/2015 11:34:50 PM", "imageSource"=>"http://its.dtop.gov.pr/images/cameras/AGDLLACAM02/AGDLLACAM02.jpg", "id"=>3, "latitude"=>18.44395, "longitude"=>-67.142611, "hasCoordinates"=>true}, {"name"=>"AGUADILLA-CAM 03", "location"=>"PR-2 INT PR-107", "dateTime"=>"24/5/2015 3:45:13 AM", "imageSource"=>"http://its.dtop.gov.pr/images/cameras/AGDLLACAM03/AGDLLACAM03.jpg", "id"=>4, "latitude"=>nil, "longitude"=>nil, "hasCoordinates"=>false}]
+=> [{"id"=>1,
+"name"=>"AGUADILLA-CAM 01",
+"location"=>"PR-2 INT PR-110 NORTE",
+"dateTime"=>"25/5/2015 11:36:34 PM",
+"imageSource"=>"http://its.dtop.gov.pr/images/cameras/AGDLLACAM01/AGDLLACAM01.jpg",
+"latitude"=>18.452983, "longitude"=>-67.091931, "hasCoordinates"=>true}]
 ```
 
 ### Additional Example
 ```ruby
 require 'big_brother_pr'
+
 client = BigBrotherPR::Client.new
 
 client.find_all_cameras
