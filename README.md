@@ -9,7 +9,7 @@
 A Ruby client and library for ITS/DTOP's Traffic Cameras API.
 
 ## Why
-Currently [DTOP's Intelligent Transportation Systems (ITS)]((http://its.dtop.gov.pr) Project for Puerto Rico has an API that lists 3-second delayed images from traffic cameras throughout the island. Besides this (unlisted) api, the only other way to get an (incomplete) list of the cameras is to use [ITS DTOP's site](http://its.dtop.gov.pr/es/TrafficCameras.aspx). This gem helps by doing a few clever things in order to provide you a complete and cleaner response.
+Currently [DTOP's Intelligent Transportation Systems (ITS)](http://its.dtop.gov.pr) Project for Puerto Rico has an API that lists 3-second delayed images from traffic cameras throughout the island. Besides this (unlisted) api, the only other way to get an (incomplete) list of the cameras is to use [ITS DTOP's site](http://its.dtop.gov.pr/es/TrafficCameras.aspx). This gem helps by doing a few clever things in order to provide you a complete and cleaner response.
 
 ## Installation
     gem install big_brother_pr
