@@ -1,23 +1,32 @@
-# TrafficCamsPR
+![big_brother_pr](https://cloud.githubusercontent.com/assets/1783738/7804501/05930fd2-0332-11e5-81a8-c12bb15afddc.png)
 
-A Ruby client and library for ITS DTOP's Traffic Cameras API.
+A Ruby client and library for ITS/DTOP's Traffic Cameras API.
 
 ## Installation
-    gem install traffic_cams_pr
+    gem install big_brother_pr
 
 ## Usage
 
 ### Basic Example Code
 ```ruby
-require 'traffic_cams_pr'
+require 'big_brother_pr'
 
-client = TrafficCamsPR.new
+traffic_cams = BigBrotherPR.find_all_cameras
+```
 
-client.all_cameras
+### Additional Example
+```ruby
+client = BigBrotherPR::Client.new
+
+client.find_all_cameras
+client.save # saves (parsed) json response to disk
 ```
 
 ## Author
   * [Jonah Ruiz](http://www.twitter.com/jonahBinario)
+
+## BigBrotherPR logo
+  * Designed by my girlfriend, Gloria :)
 
 ## Contributing
 

@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in traffic_cams_pr.gemspec
+# Specify your gem's dependencies in big_brother_pr.gemspec
 gemspec

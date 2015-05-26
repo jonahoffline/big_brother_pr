@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'traffic_cams_pr/version'
+require 'big_brother_pr/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'traffic_cams_pr'
-  spec.version       = TrafficCamsPR::VERSION
+  spec.name          = 'big_brother_pr'
+  spec.version       = BigBrotherPR::VERSION
   spec.authors       = ['Jonah Ruiz']
   spec.email         = ['jonah@pixelhipsters.com']
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{A Ruby client and library for DTOP's Traffic Cameras API.}
-  spec.homepage      = 'https://github.com/jonahoffline/traffic_cams_pr'
+  spec.summary       = %q{A Ruby client and library for ITS/DTOP's Traffic Cameras API.}
+  spec.description   = %q{A Ruby client and library for ITS/DTOP's Traffic Cameras API.}
+  spec.homepage      = 'https://github.com/jonahoffline/big_brother_pr'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -22,4 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.9'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'pry'
+  spec.add_dependency 'httparty', '~> 0.13.5'
+  spec.add_dependency 'activesupport', '~> 4.2.1'
 end

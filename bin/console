@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'traffic_cams_pr'
+require 'big_brother_pr'
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -10,5 +10,5 @@ require 'traffic_cams_pr'
 # require 'pry'
 # Pry.start
 
-require 'irb'
-IRB.start
+require 'pry'
+Pry.start
