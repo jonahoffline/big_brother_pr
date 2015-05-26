@@ -42,7 +42,7 @@ client.save # saves (parsed) json response to disk (traffic_cams.json)
 ## Saved Response Example
 
 ```json
-[...{
+[{
     "id":11,
     "name":"CULEBRA-CAM 01",
     "location":"TERMINAL ATM CULEBRA ",
@@ -51,7 +51,7 @@ client.save # saves (parsed) json response to disk (traffic_cams.json)
     "latitude":18.301125,
     "longitude":-65.302297,
     "hasCoordinates":true
-  }...
+  }]
 ```
 
 ## Projects using this gem
