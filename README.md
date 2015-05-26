@@ -58,11 +58,12 @@ client.save # saves (parsed) json response to disk (traffic_cams.json)
 
   * [TrafficCamPR](https://github.com/carloscheddar/trafficCamPR) - A CCTV-style Dashboard for visualizing all ITS/DTOP traffic cameras in Puerto Rico. (built with EmberJS)
 
-## Author
-  * [Jonah Ruiz](http://www.twitter.com/jonahBinario)
+## Authors
+  * [Jonah Ruiz](https://www.twitter.com/jonahBinario)
+  * [Carlos Feliciano](https://www.twitter.com/carloscheddar)
 
 ## BigBrotherPR logo
-  * Designed by my girlfriend, Gloria :)
+  * Designed by my girlfriend, Gloria ₍˄·͈༝·͈˄₎ฅ˒˒
 
 ## Contributing
 
