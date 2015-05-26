@@ -56,7 +56,7 @@ client.save # saves (parsed) json response to disk (traffic_cams.json)
 
 ## Projects using this gem
 
-  * [TrafficCamPR](https://github.com/carloscheddar/trafficCamPR) - A CCTV-style Dashboard for visualizing all ITS/DTOP Traffic Cameras for Puerto Rico. (built with EmberJS)
+  * [TrafficCamPR](https://github.com/carloscheddar/trafficCamPR) - A CCTV-style Dashboard for visualizing all ITS/DTOP traffic cameras in Puerto Rico. (built with EmberJS)
 
 ## Author
   * [Jonah Ruiz](http://www.twitter.com/jonahBinario)
