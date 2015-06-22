@@ -1,6 +1,5 @@
 require 'json'
 require 'httparty'
-require 'active_support/core_ext/string/inflections'
 require 'big_brother_pr/utils'
 
 module BigBrotherPR
@@ -25,7 +24,8 @@ module BigBrotherPR
       merged_cams = merge_cams(public: cctv, private: traffic_cams)
 
       merged_cams.map do |res|
-        cleanup_response(res)
+        parsed_response = cleanup_response(res)
+        add_missing_coordinates(parsed_response)
       end
     end
 

@@ -25,4 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
   spec.add_dependency 'httparty', '~> 0.13.5'
   spec.add_dependency 'activesupport', '~> 4.2.1'
+  spec.add_dependency 'geocoder', '~> 1.2.9'
 end
