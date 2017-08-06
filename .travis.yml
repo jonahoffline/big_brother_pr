@@ -5,10 +5,3 @@ rvm:
   - 2.2.6
   - 2.2.2
 script: bundle exec rake
-notifications:
-  email: false
-  irc:
-    on_success: change
-    on_failure: always
-    channels:
-    - irc.freenode.org#rubyonadhd
