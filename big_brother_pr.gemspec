@@ -18,12 +18,13 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+  spec.required_ruby_version = '>= 2.2.2'
 
-  spec.add_development_dependency 'bundler', '~> 1.9'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'bundler', '~> 1.15.3'
+  spec.add_development_dependency 'rake', '~> 12.0'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'pry'
-  spec.add_dependency 'httparty', '~> 0.13.5'
-  spec.add_dependency 'activesupport', '~> 4.2.1'
-  spec.add_dependency 'geocoder', '~> 1.2.9'
+  spec.add_dependency 'httparty', '~> 0.15.6'
+  spec.add_dependency 'activesupport', '~> 5.1.3'
+  spec.add_dependency 'geocoder', '~> 1.4.4'
 end
