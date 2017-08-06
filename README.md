@@ -4,6 +4,7 @@
 [![Gem Version](http://img.shields.io/gem/v/big_brother_pr.svg?style=flat-square)](http://badge.fury.io/rb/big_brother_pr)
 [![Dependency Status](http://img.shields.io/gemnasium/jonahoffline/big_brother_pr.svg?style=flat-square)](https://gemnasium.com/jonahoffline/big_brother_pr)
 [![Code Climate](http://img.shields.io/codeclimate/github/jonahoffline/big_brother_pr.svg?style=flat-square)](https://codeclimate.com/github/jonahoffline/big_brother_pr)
+[![security](https://hakiri.io/github/jonahoffline/big_brother_pr/master.svg)](https://hakiri.io/github/jonahoffline/big_brother_pr/master)
 
 
 A Ruby client and library for ITS/DTOP's Traffic Cameras API.
