@@ -2,8 +2,7 @@
 
 [![Build Status](http://img.shields.io/travis/jonahoffline/big_brother_pr.svg?style=flat-square)](https://travis-ci.org/jonahoffline/big_brother_pr)
 [![Gem Version](http://img.shields.io/gem/v/big_brother_pr.svg?style=flat-square)](http://badge.fury.io/rb/big_brother_pr)
-[![Dependency Status](http://img.shields.io/gemnasium/jonahoffline/big_brother_pr.svg?style=flat-square)](https://gemnasium.com/jonahoffline/big_brother_pr)
-[![Code Climate](http://img.shields.io/codeclimate/github/jonahoffline/big_brother_pr.svg?style=flat-square)](https://codeclimate.com/github/jonahoffline/big_brother_pr)
+[![Maintainability](https://api.codeclimate.com/v1/badges/805cce053fad5a3aa0a0/maintainability)](https://codeclimate.com/github/jonahoffline/big_brother_pr/maintainability)
 [![security](https://hakiri.io/github/jonahoffline/big_brother_pr/master.svg)](https://hakiri.io/github/jonahoffline/big_brother_pr/master)
 
 
